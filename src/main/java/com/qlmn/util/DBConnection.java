@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String URL = "jdbc:sqlite:C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/KTPM/QLMamNon/QLMN_DB.db"; // đường dẫn tới file SQLite
+    private static final String URL = "jdbc:sqlite:QLMN_DB.db";
     public static Connection getConnection() {
         try {
             return DriverManager.getConnection(URL);
